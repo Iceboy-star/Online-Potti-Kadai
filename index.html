@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FoodExpress - Online Food Delivery</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🍴 FoodExpress</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">Cart 🛒</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Delicious Food<br>Delivered Fast 🚴</h1>
+
+        <p>
+            Order your favourite food from the best restaurants
+            near you.
+        </p>
+
+        <a href="menu.html" class="btn">
+            Order Now
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="categories">
+
+    <h2>Popular Categories</h2>
+
+    <div class="category-container">
+
+        <div class="category">
+            🍕
+            <h3>Pizza</h3>
+        </div>
+
+        <div class="category">
+            🍔
+            <h3>Burger</h3>
+        </div>
+
+        <div class="category">
+            🍗
+            <h3>Chicken</h3>
+        </div>
+
+        <div class="category">
+            🍜
+            <h3>Noodles</h3>
+        </div>
+
+        <div class="category">
+            🍰
+            <h3>Desserts</h3>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="popular">
+
+    <h2>Popular Food</h2>
+
+    <div class="food-container">
+
+        <div class="food-card">
+
+            <div class="food-image">🍕</div>
+
+            <h3>Cheese Pizza</h3>
+
+            <p>Classic cheese pizza</p>
+
+            <strong>₹249</strong>
+
+            <button onclick="addToCart('Cheese Pizza',249)">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <div class="food-card">
+
+            <div class="food-image">🍔</div>
+
+            <h3>Chicken Burger</h3>
+
+            <p>Crispy chicken burger</p>
+
+            <strong>₹179</strong>
+
+            <button onclick="addToCart('Chicken Burger',179)">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <div class="food-card">
+
+            <div class="food-image">🍜</div>
+
+            <h3>Chicken Noodles</h3>
+
+            <p>Hot spicy noodles</p>
+
+            <strong>₹199</strong>
+
+            <button onclick="addToCart('Chicken Noodles',199)">
+                Add to Cart
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <h3>🍴 FoodExpress</h3>
+
+    <p>Fast • Fresh • Delicious</p>
+
+    <p>© 2026 FoodExpress</p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
