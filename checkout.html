@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>FoodExpress - Checkout</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+
+<body>
+
+<header>
+
+<div class="logo">
+🍴 FoodExpress
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="menu.html">Menu</a>
+
+<a href="cart.html">Cart 🛒</a>
+
+</nav>
+
+</header>
+
+
+<section class="checkout">
+
+<h1>Checkout</h1>
+
+
+<form onsubmit="placeOrder(event)">
+
+<label>
+Full Name
+</label>
+
+<input
+type="text"
+required
+placeholder="Enter your name">
+
+
+<label>
+Mobile Number
+</label>
+
+<input
+type="tel"
+required
+placeholder="Enter mobile number">
+
+
+<label>
+Delivery Address
+</label>
+
+<textarea
+required
+placeholder="Enter your delivery address">
+</textarea>
+
+
+<label>
+Payment Method
+</label>
+
+<select required>
+
+<option value="">
+Select Payment
+</option>
+
+<option>
+Cash on Delivery
+</option>
+
+<option>
+UPI
+</option>
+
+<option>
+Credit / Debit Card
+</option>
+
+</select>
+
+
+<button
+type="submit">
+Place Order
+</button>
+
+</form>
+
+</section>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
