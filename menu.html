@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>FoodExpress - Menu</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+
+<body>
+
+<header>
+
+<div class="logo">
+🍴 FoodExpress
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="menu.html">Menu</a>
+
+<a href="cart.html">
+Cart 🛒
+</a>
+
+<a href="login.html">
+Login
+</a>
+
+</nav>
+
+</header>
+
+
+<section class="menu">
+
+<h1>Our Menu</h1>
+
+
+<input
+type="text"
+id="search"
+placeholder="🔎 Search food..."
+onkeyup="searchFood()">
+
+
+<div class="food-container"
+id="foodContainer">
+
+
+<div class="food-card">
+
+<div class="food-image">🍕</div>
+
+<h3>Cheese Pizza</h3>
+
+<p>Cheesy delicious pizza</p>
+
+<strong>₹249</strong>
+
+<button
+onclick="addToCart('Cheese Pizza',249)">
+Add to Cart
+</button>
+
+</div>
+
+
+<div class="food-card">
+
+<div class="food-image">🍔</div>
+
+<h3>Chicken Burger</h3>
+
+<p>Crispy chicken burger</p>
+
+<strong>₹179</strong>
+
+<button
+onclick="addToCart('Chicken Burger',179)">
+Add to Cart
+</button>
+
+</div>
+
+
+<div class="food-card">
+
+<div class="food-image">🍗</div>
+
+<h3>Fried Chicken</h3>
+
+<p>Crispy fried chicken</p>
+
+<strong>₹299</strong>
+
+<button
+onclick="addToCart('Fried Chicken',299)">
+Add to Cart
+</button>
+
+</div>
+
+
+<div class="food-card">
+
+<div class="food-image">🍜</div>
+
+<h3>Chicken Noodles</h3>
+
+<p>Spicy chicken noodles</p>
+
+<strong>₹199</strong>
+
+<button
+onclick="addToCart('Chicken Noodles',199)">
+Add to Cart
+</button>
+
+</div>
+
+
+<div class="food-card">
+
+<div class="food-image">🍛</div>
+
+<h3>Chicken Biryani</h3>
+
+<p>Traditional chicken biryani</p>
+
+<strong>₹220</strong>
+
+<button
+onclick="addToCart('Chicken Biryani',220)">
+Add to Cart
+</button>
+
+</div>
+
+
+<div class="food-card">
+
+<div class="food-image">🍰</div>
+
+<h3>Chocolate Cake</h3>
+
+<p>Rich chocolate cake</p>
+
+<strong>₹149</strong>
+
+<button
+onclick="addToCart('Chocolate Cake',149)">
+Add to Cart
+</button>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 FoodExpress</p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
